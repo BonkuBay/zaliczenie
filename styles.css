@@ -1,0 +1,156 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: white;
+  color: black;
+  scroll-behavior: smooth;
+}
+
+#f1 input {
+  background-color: #7eabae;
+  font-size: large;
+  color: black;
+  padding: 2px;
+  margin-top: 20px;
+}
+header div h1{
+  font-size: 400%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.hour{
+ font-weight: bold;
+}
+
+header {
+  background-color: #443434;
+  padding: 20px 0;
+  text-align: center;
+  font-size: large;
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://findmatthew.com/style/../img/filler.png");
+  background-repeat: repeat;
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+
+nav {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+
+}
+
+#witaj {
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #7eabae;
+  border-radius: 25px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+#kontakt{
+  text-align: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 15px;
+  border-radius: 15px;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #E6E6E6;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+section {
+  background-color: #E6E6E6;
+  margin: 25px ;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #E6E6E6;
+  color: black;
+  text-align: left;
+  padding: 25px;
+}
+.contact{
+  text-align: center;
+}
+
+.form-container {
+  background-color: #E6E6E6;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-field {
+  flex-basis: 48%;
+}
+
+.form-field input,
+.form-field textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+}
+.form-field-textarea textarea {
+  resize: none;
+  height: 150px;
+}
+
+.form-button {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  padding: 20px 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #E6E6E6;
+  color: grey;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+}
